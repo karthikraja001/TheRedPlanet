@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.fa{
+    padding: 25px;
+    border-radius: 65%;
+
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+#fact{
+    background: black;
+    color: white;
+}
+
+.fa-facebook{
+    background: black;
+    color: white;
+}
+
+#main-title{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+p{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+
+#head,li{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#c01,#c02{
+    
+    opacity: 80%;
+}
+#c01{
+    font-size: 30px;
+    word-spacing: 0.2cm;
+}
+
+
+#desc{
+    font-family: 'Sriracha', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 995px) {
+    #c01{
+        font-size: 20px;
+        word-spacing: 0.2cm;
+    }    
+  }
+
+@media only screen and (max-width: 775px) {
+    #c01{
+        font-size: 15px;
+        word-spacing: 0.2cm;
+    }    
+  }
+
+  @media only screen and (max-width: 410px) {
+    #c01{
+        font-size: 11px;
+        word-spacing: 0.2cm;
+    }    
+    #main-title{
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    #capt{
+        font-size: 15px;
+    }
+    #desc{
+        font-family: 'Sriracha', cursive;
+        color: white;
+        font-size: 15px;
+    }
+    p{
+        font-family: 'Courgette', cursive;
+        font-size: 15px;
+    }
+  }
+
+
+  @media only screen and (max-width: 376px) {
+    #c01{
+        font-size: 10px;
+        word-spacing: 0.2cm;
+    }    
+    #main-title{
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    #capt{
+        font-size: 15px;
+    }
+    #desc{
+        font-family: 'Sriracha', cursive;
+        color: white;
+        font-size: 15px;
+    }
+    p{
+        font-family: 'Courgette', cursive;
+        font-size: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 321px) {
+    #c01{
+        font-size: 11px;
+        word-spacing: 0.2cm;
+    }    
+    #main-title{
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    #capt{
+        font-size: 15px;
+    }
+    #desc{
+        font-family: 'Sriracha', cursive;
+        color: white;
+        font-size: 15px;
+    }
+    p{
+        font-family: 'Courgette', cursive;
+        font-size: 15px;
+    }
+  }
+
+
+  @media only screen and (max-width: 280px) {
+    #c01{
+        font-size: 7px;
+        word-spacing: 0.2cm;
+    }    
+    #main-title{
+        font-family: 'Balsamiq Sans', cursive;
+    }
+    #capt{
+        font-size: 10px;
+    }
+    #desc{
+        font-family: 'Sriracha', cursive;
+        color: white;
+        font-size: 10px;
+    }
+    p{
+        font-family: 'Courgette', cursive;
+        font-size: 10px;
+    }
+  }
+
+  
