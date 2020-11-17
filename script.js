@@ -25,7 +25,7 @@ function getWeather(){
         {
             if(typeof avg_temps[i] !=='undefined')
             {
-                document.getElementById("dt0"+i).innerHTML = `${avg_temps[i-1].toFixed(2)}°C&emsp;&emsp;&emsp;&emsp;&emsp;${hi_temps[i-1].toFixed(2)}°C&emsp;&emsp;&emsp;&emsp;&emsp;${low_temps[i-1].toFixed(2)}°C`
+                document.getElementById("dt0"+i).innerHTML = `${avg_temps[i-1]}°C&emsp;&emsp;&emsp;&emsp;&emsp;${hi_temps[i-1]}°C&emsp;&emsp;&emsp;&emsp;&emsp;${low_temps[i-1]}°C`
             }
         }
     })
